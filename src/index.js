@@ -184,4 +184,4 @@ window.addEventListener('hashchange', () => displaySection(window.location.hash)
 
 displaySection(window.location.hash)
 
-navigator.serviceWorker.register(new URL('workerCacheFetched.js', import.meta.url))
+// navigator.serviceWorker.register(new URL('workerCacheFetched.js', import.meta.url))
