@@ -1,6 +1,6 @@
 import { getArtists, getSongsForArtist, searchSongs, getLyricsSong } from "./api";
 import lireChanson from "./player";
-import JsonStorage from "./lib/jsonStorage";
+import JsonStorage from "./lib/JsonStorage";
 
 const searchInput = document.querySelector("#search-input");
 const searchBtn = document.querySelector("#search-trigger");
