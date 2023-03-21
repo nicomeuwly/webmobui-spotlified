@@ -5,8 +5,8 @@
   "private": true,
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel index.html OneSignalSDKWorker.js",
+    "build": "parcel build src/index.html src/OneSignalSDKWorker.js"
   },
   "keywords": [],
   "author": "",
